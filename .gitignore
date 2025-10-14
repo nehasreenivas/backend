@@ -1,0 +1,27 @@
+# ----------------
+# Python backend
+# ----------------
+__pycache__/
+*.py[cod]
+.env
+venv/
+env/
+pyenv/
+instance/
+*.log
+
+# Media files (keep folder but not media)
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/.env
+# ----------------
+# React frontend / Node
+# ----------------
+frontend/node_modules/
+frontend/build/
+frontend/.env*
+frontend/README.md
+
+# Misc
+.DS_Store
+AI-Interview-clean/
